@@ -7,11 +7,11 @@ import random
 
 ctk.set_appearance_mode("dark")
 # Color theme
-ctk.set_default_color_theme("Anthracite.json")
+ctk.set_default_color_theme("All-In/Anthracite.json")
 
 app = ctk.CTk()
 app.geometry("1080x720")
-app.title("AllIn")
+app.title("All-In")
 
 # Data
 flashcards = []
@@ -320,7 +320,7 @@ def show_homepage():
     # Logo
     logo_label = ctk.CTkLabel(
         master=frame,
-        text="AllIN",
+        text="All-IN",
         font=montserrat_black,
     )
     logo_label.place(relx=0.5, rely=0.15, anchor="center")
